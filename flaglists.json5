@@ -5,7 +5,25 @@
       "f": "Main/Base.json",
       "h": ""
     }],
-    "features": []
+    "features": [
+	  {
+        "name": "Privacy",
+        "options": [
+          {
+            "name": "Disabled",
+            "file": [], // no file
+          },
+          {
+            "name": "Mitigate Telemetry",
+            "file": [{
+              "f": "Main/Privacy.json",
+              "h": "<...>"
+            }],
+          }
+        ],
+        "default": "Mitigate Telemetry"
+      }
+	]
   },
   "Renderer": {
     "default": true, // when false, all features are oof
@@ -48,7 +66,7 @@
           }
         ],
         "default": "Default"
-      },
+      }
       // etc..
     ]
   }
