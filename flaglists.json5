@@ -26,6 +26,13 @@
             }],
           },
           {
+            "name": "OpenGL",
+            "file": [{
+              "f": "Renderer/OpenGL.json",
+              "h": "<...>"
+            }],
+          },
+          {
             "name": "Vulkan",
             "file": [{
               "f": "Renderer/Vulkan.json",
