@@ -90,6 +90,37 @@
           }
         ],
         "default": "Default"
+      },
+	  {
+        "name": "Lighting",
+        "options": [
+          {
+            "name": "Default", // Don't force any particular lighting engine
+            "file": [], // no file
+          },
+          {
+            "name": "Voxel",
+            "file": [{
+              "f": "Lighting/Voxel.json",
+              "h": "<...>"
+            }],
+          },
+		  {
+            "name": "Future Lighting Phase 2",
+            "file": [{
+              "f": "Lighting/FutureIsBrightPhase2.json",
+              "h": "<...>"
+            }],
+          },
+		  {
+            "name": "Future Lighting Phase 3",
+            "file": [{
+              "f": "Lighting/FutureIsBrightPhase3.json",
+              "h": "<...>"
+            }],
+          }
+        ],
+        "default": "Default"
       }
       // etc..
     ]
