@@ -1,0 +1,34 @@
+{
+  "Repo": "github:rbxflags/Flags",
+  "Main": {
+    "default": true,
+    "base": [{
+      "f": "Main/Base.json",
+      "h": ""
+    }],
+    "features": []
+  },
+  "Renderer": {
+    "default": true, // when false, all features are oof
+    "base": [],
+    "features": [
+      {
+        "name": "Renderer",
+        "options": [
+          {
+            "name": "Default",
+            "file": [], // no file
+          },
+          {
+            "name": "DX11",
+            "file": [{
+              "f": "Renderer/DX11.json",
+              "h": "<...>"
+            }],
+          }
+        ],
+        "default": "Default"
+      }
+    ]
+  }
+}
