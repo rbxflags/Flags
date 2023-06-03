@@ -19,7 +19,7 @@
             "file": [], // no file
           },
           {
-            "name": "DX11",
+            "name": "DX11", // Roblox default
             "file": [{
               "f": "Renderer/DX11.json",
               "h": "<...>"
@@ -27,6 +27,13 @@
           },
           {
             "name": "OpenGL",
+            "file": [{
+              "f": "Renderer/OpenGL.json",
+              "h": "<...>"
+            }],
+          },
+		  {
+            "name": "Metal.json", // Warn non Mac users that this will crash them
             "file": [{
               "f": "Renderer/OpenGL.json",
               "h": "<...>"
