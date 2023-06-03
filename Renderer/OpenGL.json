@@ -1,0 +1,4 @@
+{
+  "FFlagDebugGraphicsDisableDirect3D11": true,
+  "FFlagDebugGraphicsPreferOpenGL": true
+}
