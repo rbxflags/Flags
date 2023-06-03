@@ -24,10 +24,18 @@
               "f": "Renderer/DX11.json",
               "h": "<...>"
             }],
+          },
+          {
+            "name": "Vulkan",
+            "file": [{
+              "f": "Renderer/Vulkan.json",
+              "h": "<...>"
+            }],
           }
         ],
         "default": "Default"
-      }
+      },
+      // etc..
     ]
   }
 }
