@@ -1,4 +1,4 @@
 {
   "FFlagDebugGraphicsDisableDirect3D11": true,
-  "FFlagDebugGraphicsPreferVulkan": true,
+  "FFlagDebugGraphicsPreferVulkan": true
 }
