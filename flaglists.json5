@@ -22,6 +22,30 @@
           }
         ],
         "default": "Mitigate Telemetry"
+      },
+	  {
+        "name": "Experimental",
+        "options": [
+          {
+            "name": "Disabled", // No experimental flags enabled
+            "file": [], // no file
+          },
+          {
+            "name": "Enable Lossy Flags", // Flags that disable/change things that may/will actually impact features ingame
+            "file": [{
+              "f": "Experimental/Lossy.json",
+              "h": "<...>"
+            }],
+          },
+		  {
+            "name": "Enable Buggy Flags", // Flags that have been known to cause bugs for certain users/certain games, but may provide a performance increase
+            "file": [{
+              "f": "Experimental/Bugs.json",
+              "h": "<...>"
+            }],
+          }
+        ],
+        "default": "Disabled"
       }
 	]
   },

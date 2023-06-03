@@ -1,6 +1,4 @@
 {
   "DFIntTaskSchedulerTargetFps": 500,
-  "FFlagHandleAltEnterFullscreenManually": false,
-  "FFlagFixGraphicsQuality": true,
-  "FFlagCommitToGraphicsQualityFix": true
+  "FFlagHandleAltEnterFullscreenManually": false
 }
