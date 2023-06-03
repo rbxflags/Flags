@@ -10,7 +10,7 @@
         "name": "Privacy",
         "options": [
           {
-            "name": "Disabled",
+            "name": "Disabled", // As in, the privacy flags are not applied, "off" switch
             "file": [], // no file
           },
           {
