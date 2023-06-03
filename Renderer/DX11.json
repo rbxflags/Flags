@@ -1,4 +1,4 @@
 {
-  "FFlagDebugGraphicsDisableDirect3D11": false,
-  "FFlagDebugGraphicsPreferD3D11": true
+	"FFlagDebugGraphicsDisableDirect3D11": false,
+	"FFlagDebugGraphicsPreferD3D11": true
 }
