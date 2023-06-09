@@ -21,7 +21,7 @@
             }],
           }
         ],
-        "default": "Mitigate Telemetry"
+        "default": "Disabled"
       },
 	  {
         "name": "Experimental",
