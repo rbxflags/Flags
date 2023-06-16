@@ -6,7 +6,7 @@
     name: 'Main RFO Flag List',
     base: [
       {
-        f: 'Main/Base.json',
+        f: 'Base.json',
         h: {
           // hashes will evtl be added by CI/CD
           algorithm: 'none',
