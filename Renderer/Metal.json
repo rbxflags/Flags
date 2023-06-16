@@ -1,0 +1,5 @@
+{
+  "FFlagIsThisFileDEPRECATED": true,
+  "FFlagDebugGraphicsDisableDirect3D11": true,
+  "FFlagDebugGraphicsPreferMetal": true
+}
