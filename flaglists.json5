@@ -31,6 +31,23 @@
         multiple: false,
         default: 'Mitigate Telemetry',
       },
+      {
+        name: "Graphics",
+        // no question atm since it's unused and i can't think of a decent one
+        options: {
+          'Graphics Quality Fix': [
+            {
+                f: 'GraphicsBars.json',
+                h: {
+                    algorithm: 'none',
+                },
+            },
+          ],
+          'Disabled': []
+        },
+        multiple: false,
+        default: 'Disabled'
+      },
     ]
   },
   Rendering: {
