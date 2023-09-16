@@ -18,10 +18,11 @@
   "DFFlagBrowserTrackerIdTelemetryEnabled": false,
   "DFStringRobloxAnalyticsURL": "null",
   "DFStringTelegrafHTTPTransportUrl": "null",
+  "DFStringAltTelegrafHTTPTransportUrl": "null",
   "DFStringTelemetryV2Url": "null",
   "DFFlagEnableLightstepReporting2": false,
   "DFIntLightstepHTTPTransportHundredthsPercent2": 0,
   "DFStringLightstepHTTPTransportUrlHost": "null",
   "DFStringLightstepHTTPTransportUrlPath": "null",
-  "DFStringLightstepToken": "null"
+  "DFStringLightstepToken": "null",
 }
