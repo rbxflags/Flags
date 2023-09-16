@@ -15,5 +15,8 @@
   "DFFlagAddUserIdToSessionTracking": false,
   "DFFlagAudioDeviceTelemetry": false,
   "DFFlagBaseNetworkMetrics": false,
-  "DFFlagBrowserTrackerIdTelemetryEnabled": false
+  "DFFlagBrowserTrackerIdTelemetryEnabled": false,
+  "DFStringRobloxAnalyticsURL": "null",
+  "DFStringTelegrafHTTPTransportUrl": "null",
+  "DFStringTelemetryV2Url": "null"
 }
