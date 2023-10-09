@@ -46,7 +46,7 @@ export type IFeature<T extends string> = {
 }
 export type IFlagItem = {
   /** If present, throws a warning with the contents - useful for deprecation or removal warnings. */
-  warning?: string,
+  warning?: string | null,
   /** Base URL - e.g. https://rfo.sh/flags/ */
   baseurl: string,
   /** Git clone URL - e.g. https://github.com/rbxflags/Flags.git or git@github.com/rbxflags/Flags.git */
