@@ -44,6 +44,8 @@ type Feature<T extends string> = {
 type FlagItem = {
   /** Base URL - e.g. https://rfo.sh/flags/ */
   baseurl: string,
+  /** Git clone URL - e.g. https://github.com/rbxflags/Flags.git or git@github.com/rbxflags/Flags.git */
+  giturl: string,
   /** Is it enabled by default */
   default: boolean,
   /** Human-Readable Name */
