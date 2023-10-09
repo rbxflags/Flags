@@ -1,5 +1,4 @@
-
-type FileHash = {
+export type IFileHash = {
   /** Algorithm, throw err if MD5 */
   algorithm: string,
   /** Hash Digest */
@@ -8,21 +7,23 @@ type FileHash = {
   /** No Algo */
   algorithm: 'none',
   /** Hash Digest */
-  digest: undefined | null,
+  digest?: undefined | null,
 }
-type File = {
-  /** File Route relative to {@link FlagItem.base} */
+export type IFile = {
+  /** File Route relative to {@link IFlagItem.base} */
   f: string,
   /** File Hash */
-  h: FileHash,
+  h: IFileHash,
 }
-type Feature<T extends string> = {
+export type IFeature<T extends string> = {
   /** Human-Readable Name */
   name: string,
   /** Question */
   question: string,
   /** Options */
-  options: Record<T, File[]>,
+  options: {
+    [key: string]: IFile[],
+  },
   /** Default Option */
   default: T[],
   /** Multiple Choice */
@@ -35,24 +36,32 @@ type Feature<T extends string> = {
   /** Human-Readable Name */
   name: string,
   /** Options */
-  options: Record<T, File[]>,
+  options: {
+    [key: string]: IFile[],
+  },
   /** Default Option */
   default: T,
   /** Multiple Choice */
   multiple: false,
 }
-type FlagItem = {
+export type IFlagItem = {
   /** Base URL - e.g. https://rfo.sh/flags/ */
   baseurl: string,
   /** Git clone URL - e.g. https://github.com/rbxflags/Flags.git or git@github.com/rbxflags/Flags.git */
   giturl: string,
+  /** Git branch, defaults to 'master' */
+  gitbranch?: string,
+  /** Path relative to the git repository to find files in - Defaults to '.' */
+  gitpath?: string,
   /** Is it enabled by default */
   default: boolean,
   /** Human-Readable Name */
   name: string,
   /** Base Flags */
-  base: File[],
+  base: IFile[],
   /** Feature List */
-  features: Feature<any>[],
+  features: IFeature<string>[],
 }
-type FlagList = Record<string, FlagItem>
+export type IFlagList = {
+  [key: string]: IFlagItem,
+}

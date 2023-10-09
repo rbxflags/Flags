@@ -1,0 +1,23 @@
+{
+  "name": "build",
+  "version": "1.0.0",
+  "description": "Builds shit",
+  "private": true,
+  "scripts": {
+    "build": "ts-node src/build.ts"
+  },
+  "keywords": [],
+  "author": "RBXFlags",
+  "license": "GPL-3.0-OR-LATER",
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.2",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "@types/node": "^20.8.3",
+    "fs-extra": "^11.1.1",
+    "json5": "^2.2.3",
+    "typescript": "^5.2.2",
+    "typescript-json-schema": "^0.61.0"
+  }
+}

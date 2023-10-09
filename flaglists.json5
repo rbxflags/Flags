@@ -2,6 +2,8 @@
   Main: {
     // baseurl: 'https://flags.rfo.sh/',
     baseurl: 'https://raw.githubusercontent.com/rbxflags/Flags/main/Main/',
+    giturl: 'https://github.com/rbxflags/Flags.git',
+    gitpath: 'Main',
     default: true,
     name: 'Main RFO Flag List',
     base: [
@@ -52,6 +54,8 @@
   },
   Rendering: {
     baseurl: 'https://raw.githubusercontent.com/rbxflags/Flags/main/Render/',
+    giturl: 'https://github.com/rbxflags/Flags.git',
+    gitpath: 'Render',
     default: false,
     name: 'Rendering-related RFO Flags',
     base: [], // no base - this is all feature-driven
@@ -94,33 +98,9 @@
         question: 'Which Rendering Engine do you want to use? (advanced)',
         options: {
           'Default': [],
-          'DX11': [
-            {
-              f: 'Renderer/DX11.json5',
-              h: {
-                algorithm: 'none',
-              },
-            }
-          ],
           'Metal': [
             {
-              f: 'Renderer/Metal.json5',
-              h: {
-                algorithm: 'none',
-              },
-            }
-          ],
-          'OpenGL': [
-            {
-              f: 'Renderer/OpenGL.json5',
-              h: {
-                algorithm: 'none',
-              },
-            }
-          ],
-          'Vulkan': [
-            {
-              f: 'Renderer/Vulkan.json5',
+              f: '../Renderer/Metal.json',
               h: {
                 algorithm: 'none',
               },
@@ -134,6 +114,8 @@
   },
   Experimental: {
     baseurl: 'https://raw.githubusercontent.com/rbxflags/Flags/main/Experimental/',
+    giturl: 'https://github.com/rbxflags/Flags.git',
+    gitpath: 'Experimental',
     default: false,
     name: 'Experimental RFO Flags',
     base: [], // no base - this is all feature-driven
