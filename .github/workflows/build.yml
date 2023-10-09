@@ -40,12 +40,12 @@ jobs:
           cp src/flaglist.ts ../flaglist.d.ts;
       - name: Setup Pages
         uses: actions/configure-pages@v3
+      - name: Create Indexes
+        uses: Exponential-Workload/create-index-action@master
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
           path: '.'
-      - name: Create Indexes
-        uses: Exponential-Workload/create-index-action@master
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
