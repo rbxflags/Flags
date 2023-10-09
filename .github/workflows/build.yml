@@ -40,6 +40,9 @@ jobs:
           cp src/flaglist.ts ../flaglist.d.ts;
       - name: Setup Pages
         uses: actions/configure-pages@v3
+      - name: Remove files not pushed to output
+        run: |
+          rm -rf .github build/dist build/package-lock.json
       - name: Create Indexes
         uses: Exponential-Workload/create-index-action@master
       - name: Upload artifact
