@@ -19,10 +19,10 @@
   "DFStringLightstepHTTPTransportUrlPath": "null",
   "DFStringLightstepToken": "null",
   "FFlagDebugDisableTelemetryEphemeralCounter": true,
-	"FFlagDebugDisableTelemetryEphemeralStat": true,
-	"FFlagDebugDisableTelemetryEventIngest": true,
-	"FFlagDebugDisableTelemetryPoint": true,
-	"FFlagDebugDisableTelemetryV2Counter": true,
-	"FFlagDebugDisableTelemetryV2Event": true,
-	"FFlagDebugDisableTelemetryV2Stat": true
+  "FFlagDebugDisableTelemetryEphemeralStat": true,
+  "FFlagDebugDisableTelemetryEventIngest": true,
+  "FFlagDebugDisableTelemetryPoint": true,
+  "FFlagDebugDisableTelemetryV2Counter": true,
+  "FFlagDebugDisableTelemetryV2Event": true,
+  "FFlagDebugDisableTelemetryV2Stat": true
 }
