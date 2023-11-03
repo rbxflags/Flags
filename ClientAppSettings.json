@@ -10,8 +10,6 @@
   "DFStringCrashUploadToBacktraceBaseUrl": "null",
   "DFStringCrashUploadToBacktraceMacPlayerToken": "null",
   "DFStringCrashUploadToBacktraceWindowsPlayerToken": "null",
-  "FFlagTrackPlaceIdForCrashEnabled": false,
-  "FFlagWindowsLaunchTypeAnalytics": false,
   "GoogleAnalyticsAccountPropertyID": "null",
   "GoogleAnalyticsAccountPropertyIDPlayer": "null",
   "FStringCoreScriptBacktraceErrorUploadToken": "null",
@@ -26,5 +24,12 @@
   "DFIntLightstepHTTPTransportHundredthsPercent2": 0,
   "DFStringLightstepHTTPTransportUrlHost": "null",
   "DFStringLightstepHTTPTransportUrlPath": "null",
-  "DFStringLightstepToken": "null"
+  "DFStringLightstepToken": "null",
+  "FFlagDebugDisableTelemetryEphemeralCounter": true,
+  "FFlagDebugDisableTelemetryEphemeralStat": true,
+  "FFlagDebugDisableTelemetryEventIngest": true,
+  "FFlagDebugDisableTelemetryPoint": true,
+  "FFlagDebugDisableTelemetryV2Counter": true,
+  "FFlagDebugDisableTelemetryV2Event": true,
+  "FFlagDebugDisableTelemetryV2Stat": true
 }
