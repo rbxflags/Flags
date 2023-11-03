@@ -24,5 +24,7 @@
   "FFlagDebugDisableTelemetryPoint": true,
   "FFlagDebugDisableTelemetryV2Counter": true,
   "FFlagDebugDisableTelemetryV2Event": true,
-  "FFlagDebugDisableTelemetryV2Stat": true
+  "FFlagDebugDisableTelemetryV2Stat": true,
+  "DFStringHttpPointsReporterUrl": "null",
+  "DFStringAltHttpPointsReporterUrl": "null"
 }
