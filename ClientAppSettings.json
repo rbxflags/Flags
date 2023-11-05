@@ -3,7 +3,7 @@
   "FFlagHandleAltEnterFullscreenManually": false,
   "FFlagFastGPULightCulling3": true,
   "FFlagPreloadAllFonts": true,
-  "DFIntS2PhysicsSenderRate": 1000,
+  "DFIntS2PhysicsSenderRate": 250,
   "FFlagFixGraphicsQuality": true,
   "FFlagCommitToGraphicsQualityFix": true,
   "DFIntClientLightingTechnologyChangedTelemetryHundredthsPercent": 0,
