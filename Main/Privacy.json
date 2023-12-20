@@ -8,10 +8,12 @@
   "FStringCoreScriptBacktraceErrorUploadToken": "null",
   "FStringGamesUrlPath": "/games/",
   "DFFlagBaseNetworkMetrics": false,
-  "DFFlagBrowserTrackerIdTelemetryEnabled": false,
+  "DFFlagClientBaseNetworkMetrics": false,
   "DFStringRobloxAnalyticsURL": "null",
   "DFStringTelegrafHTTPTransportUrl": "null",
   "DFStringAltTelegrafHTTPTransportUrl": "null",
+  "DFStringTelegrafAddress": "127.0.0.1",
+  "DFStringAltTelegrafAddress": "127.0.0.1",
   "DFStringTelemetryV2Url": "null",
   "DFFlagEnableLightstepReporting2": false,
   "DFIntLightstepHTTPTransportHundredthsPercent2": 0,
@@ -26,5 +28,6 @@
   "FFlagDebugDisableTelemetryV2Event": true,
   "FFlagDebugDisableTelemetryV2Stat": true,
   "DFStringHttpPointsReporterUrl": "null",
-  "DFStringAltHttpPointsReporterUrl": "null"
+  "DFStringAltHttpPointsReporterUrl": "null",
+  "DFStringAnalyticsEventStreamUrlEndpoint": "null"
 }
