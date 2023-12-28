@@ -5,7 +5,6 @@
     "FFlagPreloadAllFonts": true,
     "DFIntS2PhysicsSenderRate": 250,
     "FFlagFixGraphicsQuality": true,
-    "FFlagCommitToGraphicsQualityFix": true,
     "DFIntClientLightingTechnologyChangedTelemetryHundredthsPercent": 0,
     "DFStringCrashUploadToBacktraceBaseUrl": "null",
     "DFStringCrashUploadToBacktraceMacPlayerToken": "null",
