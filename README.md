@@ -1,7 +1,4 @@
-# RBXFlags
+# RFO
+Roblox is removing/has removed depending on when you are reading this, the ability to modify your own local fflags, making this project obsolete
 
-To be written...
-
-## License
-
-[GPL-3.0 or later](https://gh.expo.moe/licenses/licenses/GPL-3.0/GPL-3.0-OR-LATER.txt)
+[Discord](https://discord.gg/wFNQBnxJTc)
